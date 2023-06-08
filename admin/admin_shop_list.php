@@ -155,7 +155,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Username</th>
-                    <th scope="col">Shop name</th>
+                    <th scope="col">Canteen Item</th>
                     <th scope="col">Location</th>
                     <th scope="col">Contact</th>
                     <th scope="col">Action</th>

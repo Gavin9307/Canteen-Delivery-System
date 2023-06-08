@@ -29,7 +29,7 @@
         <div class="row row-cols-1 row-cols-md-2 mb-5">
             <div class="col mb-3 qr mb-md-0" >
                 <img 
-                    src="img/qr.jpeg"
+                    src="img/qr.jpg"
                     
                     class="img-fluid rounded-25 float-start" 
                     alt="qr">
