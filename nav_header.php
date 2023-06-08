@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm mb-auto">
   <div class="container-fluid mx-4">
     <a class="navbar-brand" href="index.php">
-        <img src="https://i.postimg.cc/B6yBcDD5/Color-logo-no-background2.png" alt="DBCE-Canteen" width="125" class="me-2">
+        <img src="ss.png" alt="DBCE-Canteen" width="125" class="me-2">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

@@ -58,7 +58,7 @@
             </div>
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="shopname" placeholder="Shop Name" value="<?php echo $row["s_name"];?>" disabled>
-                <label for="shopname">Shop Name</label>
+                <label for="shopname">Item Name</label>
             </div>
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="ordercost" placeholder="Order Cost" value="<?php echo $row["p_amount"]." INR";?>" disabled>
@@ -69,12 +69,12 @@
                 <select class="form-select" id="orderstatus" name="os">
                     <option selected value="">Order Status</option>
                     
-                    <option value="VRFY" <?php if($row["orh_orderstatus"]=="VRFY"){ echo "selected";}?>>VRFY | Order Verifying</option>
-                    <option value="ACPT" <?php if($row["orh_orderstatus"]=="ACPT"){ echo "selected";}?>>ACPT | Order Accepted</option>
-                    <option value="PREP" <?php if($row["orh_orderstatus"]=="PREP"){ echo "selected";}?>>PREP | Order Preparing</option>
-                    <option value="RDPK" <?php if($row["orh_orderstatus"]=="RDPK"){ echo "selected";}?>>RDPK | Ready for Pick-Up</option>
-                    <option value="FNSH" <?php if($row["orh_orderstatus"]=="FNSH"){ echo "selected";}?>>FNSH | Order Finished</option>
-                    <option value="CNCL" <?php if($row["orh_orderstatus"]=="CNCL"){ echo "selected";}?>>CNCL | Order Cancelled</option>
+                    <option value="VRFY" <?php if($row["orh_orderstatus"]=="VRFY"){ echo "selected";}?>>Order Verifying</option>
+                    <option value="ACPT" <?php if($row["orh_orderstatus"]=="ACPT"){ echo "selected";}?>>Order Accepted</option>
+                    <option value="PREP" <?php if($row["orh_orderstatus"]=="PREP"){ echo "selected";}?>>Order Preparing</option>
+                    <option value="RDPK" <?php if($row["orh_orderstatus"]=="RDPK"){ echo "selected";}?>>Ready for Pick-Up</option>
+                    <option value="FNSH" <?php if($row["orh_orderstatus"]=="FNSH"){ echo "selected";}?>>Order Finished</option>
+                    <option value="CNCL" <?php if($row["orh_orderstatus"]=="CNCL"){ echo "selected";}?>>Order Cancelled</option>
                 </select>
                 <label for="orderstatus">Order Status</label>
             </div>

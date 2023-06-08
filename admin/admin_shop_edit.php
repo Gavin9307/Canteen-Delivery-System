@@ -81,7 +81,7 @@
             </div>
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="shoplocation" placeholder="Location" value="<?php echo $row["s_location"];?>" name="s_location" required>
-                <label for="shoplocation">Shop Location</label>
+                <label for="shoplocation">Canteen Location</label>
             </div>
             <div class="form-floating mb-2">
                 <input type="text" class="form-control" id="shopphoneno" placeholder="Phone Number" value="<?php echo $row["s_phoneno"];?>" name="s_phoneno" required>

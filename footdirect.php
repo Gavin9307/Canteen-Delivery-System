@@ -15,7 +15,7 @@
     <header class="navbar navbar-expand-md navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-                <img src="img/Color logo - no background.png" width="125" class="me-2" alt="Canteen Logo">
+                <img src="ss.png" width="125" class="me-2" alt="Canteen Logo">
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -31,10 +31,14 @@
     <div class="container form-signin text-center restricted mt-auto">
             <i class="mt-4 bi bi-telephone-fill text-success h1 display-2"></i>
             <h3 class="mt-2 mb-3 fw-normal text-bold">About Us</h3>
-            <h4 class="mt-2 mb-3 fw-normal ">Don Bosco college of Engineering </h4>
+            <h4 class="mt-2 mb-3 fw-normal ">Don Bosco College of Engineering </h4>
             <p class="mt-2 mb-3 fw-normal h6 ">Department Of Computer Engineering</p>
             <p class="mb-3 fw-bold text-bold text-wrap">The Three Snippets</p>
             <h4 class="mt-2 mb-3 fw-normal ">Guide Name</h4><p class="mt-2 mb-3 fw-normal h6 ">Mr. Amey Tilve</p>
+            <h4 class="mt-2 mb-3 fw-normal ">Customer Support</h4>
+            <p class="mt-2 mb-3 fw-normal h6 ">Gavin Da Costa - <a href="mailto:gavindacosta9307@gmail.com">gavindacosta9307@gmail.com</a></p>
+            <p class="mt-2 mb-3 fw-normal h6 ">Langer Pereira - <a href="mailto:">langerpereira12@gmail.com</a> </p>
+            <p class="mt-2 mb-3 fw-normal h6 ">Samuel Miranda - <a href="mailto:">samuelmiranda@gmail.com</a> </p>
             <a class="btn btn-success btn-sm w-50" href="index.php">Return To Home</a>
     </div>
 

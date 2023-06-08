@@ -37,7 +37,7 @@
             <div class="row row-cols-1 notibar">
                 <div class="col mt-2 ms-2 p-2 bg-success text-white rounded text-start">
                     <i class="bi bi-check-circle ms-2"></i>
-                    <span class="ms-2 mt-2">Successfully updated shop profile.</span>
+                    <span class="ms-2 mt-2">Successfully updated canteen profile.</span>
                     <span class="me-2 float-end"><a class="text-decoration-none link-light" href="admin_shop_list.php">X</a></span>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="row row-cols-1 notibar">
                 <div class="col mt-2 ms-2 p-2 bg-success text-white rounded text-start">
                     <i class="bi bi-check-circle ms-2"></i>
-                    <span class="ms-2 mt-2">Successfully deleted shop profile.</span>
+                    <span class="ms-2 mt-2">Successfully deleted Canteen profile.</span>
                     <span class="me-2 float-end"><a class="text-decoration-none link-light" href="admin_shop_list.php">X</a></span>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <!-- START FAILED DELETE PROFILE -->
             <div class="row row-cols-1 notibar">
                 <div class="col mt-2 ms-2 p-2 bg-danger text-white rounded text-start">
-                    <i class="bi bi-x-circle ms-2"></i><span class="ms-2 mt-2">Failed to delete shop profile.</span>
+                    <i class="bi bi-x-circle ms-2"></i><span class="ms-2 mt-2">Failed to delete Canteen profile.</span>
                     <span class="me-2 float-end"><a class="text-decoration-none link-light" href="admin_shop_list.php">X</a></span>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             <div class="row row-cols-1 notibar">
                 <div class="col mt-2 ms-2 p-2 bg-success text-white rounded text-start">
                     <i class="bi bi-check-circle ms-2"></i>
-                    <span class="ms-2 mt-2">Successfully add new shop.</span>
+                    <span class="ms-2 mt-2">Successfully add new Canteen.</span>
                     <span class="me-2 float-end"><a class="text-decoration-none link-light" href="admin_shop_list.php">X</a></span>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 }
             ?>
 
-            <h2 class="pt-3 display-6">Shop List</h2>
+            <h2 class="pt-3 display-6">Canteen List</h2>
             <form class="form-floating mb-3" method="GET" action="admin_shop_list.php">
                 <div class="row g-2">
                     <div class="col">
@@ -110,14 +110,13 @@
                             <?php if(isset($_GET["search"])){?>value="<?php echo $_GET["un"];?>" <?php } ?>>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" id="shopname" name="sn" placeholder="Shop Name"
+                        <input type="text" class="form-control" id="shopname" name="sn" placeholder="Canteen Menu Name"
                             <?php if(isset($_GET["search"])){?>value="<?php echo $_GET["sn"];?>" <?php } ?>>
                     </div>
                     <div class="col-auto">
                         <button type="submit" name="search" value="1" class="btn btn-success">Search</button>
                         <button type="reset" class="btn btn-danger"
                             onclick="javascript: window.location='admin_shop_list.php'">Clear</button>
-                        <a href="admin_shop_add.php" class="btn btn-primary">Add new shop</a>
                     </div>
                 </div>
             </form>
@@ -141,14 +140,14 @@
         ?>
         <div class="row">
             <div class="col mt-2 ms-2 p-2 bg-danger text-white rounded text-start">
-                <i class="bi bi-x-circle ms-2"></i><span class="ms-2 mt-2">No shop found!</span>
+                <i class="bi bi-x-circle ms-2"></i><span class="ms-2 mt-2">No Canteen found!</span>
                 <a href="admin_shop_list.php" class="text-white">Clear Search Result</a>
             </div>
         </div>
         <?php } else{ ?>
         <div class="table-responsive">
         <table class="table rounded-5 table-light table-striped table-hover align-middle caption-top mb-5">
-            <caption><?php echo $search_numrow;?> shop(s) <?php if(isset($_GET["search"])){?><br /><a
+            <caption><?php echo $search_numrow;?> Canteen(s) <?php if(isset($_GET["search"])){?><br /><a
                     href="admin_shop_list.php" class="text-decoration-none text-danger">Clear Search
                     Result</a><?php } ?></caption>
             <thead class="bg-light">

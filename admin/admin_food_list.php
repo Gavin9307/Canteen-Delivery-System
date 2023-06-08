@@ -144,8 +144,8 @@
             <thead class="bg-light">
                 <tr>
                     <th scope="col">#</th>
+                    <th scope="col">Item name</th>
                     <th scope="col">Menu name</th>
-                    <th scope="col">Shop name</th>
                     <th scope="col">Price</th>
                     
                     <th scope="col">Action</th>

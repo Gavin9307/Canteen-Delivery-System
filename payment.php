@@ -16,7 +16,7 @@
     <header class="navbar navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-            <img src="img/Color logo - no background.png" width="125" class="me-2" alt="DBCE-Canteen Logo">
+            <img src="ss.png" width="125" class="me-2" alt="DBCE-Canteen Logo">
             </a>
         </div>
     </header>
