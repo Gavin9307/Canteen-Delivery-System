@@ -1,32 +1,17 @@
-# FOODCAVE
 
-ONLINE-CANTEEN-FOOD-ORDERING-SYSTEM-USING-PHP Project
+Project Description
+DBCE-Canteen is an online canteen food ordering and management system at Don Bosco College of Engineering. This system has 2 main group of users, customer and admin. Customer can view shop and menu list, add item to the cart, place the order pay for order, and view their order history.Admin can edit respective canteen information, manage their menus, manage customer orders, and view revenue report.
 
-## Project Status
-Status: **CLOSED**\
-Completion: **100%**\
-Updated on: December 29th, 2022
-
-## Project Description
-FOODCAVE is an online canteen food ordering and management system based on case scenario at Sri Vasavi Engineering College,Pedatadepalli. This system has 2 main group of users, customer and admin. Customer can view shop and menu list, add item to the cart, place the order pay for order, and view their order history.Admin can edit respective shop information, manage their menus, manage customer orders, and view revenue report.
-
-
-
-## Tools of Development
-- HTML 5
-- CSS 3
+Tools of Development
+- HTML5
+- CSS3
 - JavaScript
-- PHP 8.0.9
+- PHP
 - MySQL Database
-- Bootstrap 5.2.3
+- Bootstrap
 
-
-## Footnote
-- Food,Shop images included in the img folder.
-- To install the FOODCAVE, download and install XAMPP, download this repository and put into directory (C:/xampp/htdocs/), import database and name it foodcave in phpMyAdmin (http://localhost/phpmyadmin) using file foodcave.sql, start Apache and MySQL services, then run and access by using web browser (http://localhost/FOODCAVE/) and enjoy.
-- You can register for the customer account and log in. To log in with admin account, press the log in with admin account under login page. Add shousing the admin mode. You can look up 
-
-## Members
-Poorna Sai Kishore - @Poorna7569\
-Anji Babu - @AnjiBabuTonta\
+Members
+-Gavin Da Costa
+-Samuel Miranda
+-Langer Pereira
 
